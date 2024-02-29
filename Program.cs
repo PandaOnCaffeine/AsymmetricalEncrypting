@@ -12,13 +12,6 @@ namespace AsymmetricalEncrypting
     {
         static void Main(string[] args)
         {
-            // RSA Can't Encrypt Long Messages //
-            // Test Messages
-
-            //         //
-            // Testing //
-            //         //
-
             // Generate a public/private key using RSA  
             RSACryptoServiceProvider RSA = new RSACryptoServiceProvider(2048);
 
